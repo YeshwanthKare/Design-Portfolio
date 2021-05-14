@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    padding: 14px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 40px;
+    box-sizing: border-box;
+    /* position: fixed; */
+}
+
+.header-container > a {
+    align-self:center;
+}
+
+.header-container a {
+    padding: 30px 0 30px 0;
+}
+
+
+.header-container > a:hover {
+    text-shadow: 0px 1px 1px rgba(20,17,17,0.29);
+    cursor: pointer;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container a {
+    list-style-type: none;
+    padding: 16px;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #393e46;
+}
+
+.menu-container a:hover {
+    color: darkslategray;
+    text-shadow: 0.1px 0.2px 1px rgba(20,17,17,0.29);
+}
+
+.menu-container a:active {
+    text-decoration: underline;
+}
+
+.header-container > a{
+    font-family: 'Lobster Two', cursive;
+    font-weight:bolder;
+    font-size:35px;
+    text-decoration: none;
+    color: #393e46;
+}
+
+.me {
+    width:100%;
+    /* border: 1px solid black; */
+    background-color: #01a2a6;
+    height: 604px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.me .container-me {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container-me h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+.me h3, .me p {
+    /* font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.container-me > p {
+    font-size: 26px;
+}
+
+.me .platform-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.material-icons {
+    font-size: 80px;
+    color: #fff;
+}
+
+.platform-icons {
+    margin-top: 20px;
+}
+
+.platform-icons div {
+    padding: 10px;
+}
+
