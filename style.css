@@ -6,12 +6,13 @@
 body{
     padding: 0;
     margin: 0;
-}
-
-
-header {
     position: relative;
 }
+
+
+/* header {
+    position: relative;
+} */
 
 .header-container {
     display: flex;
@@ -21,7 +22,7 @@ header {
     align-items: center;
     margin: 0 40px 0 40px;
     box-sizing: border-box;
-    /* position: fixed; */
+    position: static;
 }
 
 .header-container > a {
@@ -74,23 +75,57 @@ header {
 .me {
     width:100%;
     /* border: 1px solid black; */
-    background-color: #01a2a6;
+    /* background-color: #01a2a6; */
     height: 604px;
     display: flex;
     justify-content:center;
     align-items: flex-start;
     flex-direction: column;
     padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
 }
 
+.me > * {
+    z-index: 20;
+}
+
+.me::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(/assets/my-profile-img.jpeg);
+    background-position:center;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 5;
+    
+}
+
+.me::after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #01a2a6;
+    position: absolute;
+}
+
+
 .me .container-me {
-    text-align: center;
+    text-align: right;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .container-me h3 {
     padding-bottom: 20px;
-    text-align: center;
+    text-align: right;
     
 }
 
@@ -98,6 +133,7 @@ header {
     /* font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    
 }
 
 .container-me > p {
@@ -107,7 +143,11 @@ header {
 .me .platform-icons {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+}
+
+#desktop-icon {
+    margin-right: 200px;
 }
 
 .material-icons {
@@ -117,9 +157,16 @@ header {
 
 .platform-icons {
     margin-top: 20px;
+    z-index: 10;
 }
 
 .platform-icons div {
     padding: 10px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.platform-icons div:hover {
+    transform: scale(1.2)
 }
 
