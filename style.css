@@ -95,11 +95,11 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(/assets/my-profile-img.jpeg);
+    background-image: url(/assets/890027.jpg);
     background-position:center;
     background-size: cover;
     object-fit: cover;
-    opacity: 0.15;
+    opacity: 0.5;
     position: absolute;
     z-index: 1;
     
@@ -117,14 +117,14 @@ body{
 
 
 .me .container-me {
-    text-align: right;
+    text-align: left;
     margin-bottom: 40px;
     width: 100%;
 }
 
 .container-me h3 {
     padding-bottom: 20px;
-    text-align: right;
+    text-align: left;
     
 }
 
@@ -142,7 +142,7 @@ body{
 .me .platform-icons {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 #desktop-icon {
