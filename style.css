@@ -10,27 +10,25 @@ body{
 }
 
 
-/* header {
-    position: relative;
-} */
-
 .header-container {
+    width: 100%;
     display: flex;
-    padding: 14px;
+    padding: 14px 100px 14px 100px;
     /* border: 1px solid black; */
     justify-content: space-between;
     align-items: center;
-    margin: 0 40px 0 40px;
+    /* margin: 0 40px 0 40px; */
     box-sizing: border-box;
-    position: static;
+    position: sticky; 
+    top: 0;
+    z-index: 40;
+    background-color: #fff;
 }
 
-.header-container > a {
-    align-self:center;
-}
+
 
 .header-container a {
-    padding: 30px 0 30px 0;
+    /* padding: 30px 0 30px 0; */
 }
 
 
@@ -87,7 +85,7 @@ body{
 }
 
 .me > * {
-    z-index: 20;
+    z-index: 10;
 }
 
 .me::before {
@@ -100,9 +98,9 @@ body{
     background-position:center;
     background-size: cover;
     object-fit: cover;
-    opacity: 0.3;
+    opacity: 0.09;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
     
 }
 
@@ -136,8 +134,8 @@ body{
     
 }
 
-.container-me > p {
-    font-size: 26px;
+.container-me > p, .container-me h3 {
+    font-size: 32px;
 }
 
 .me .platform-icons {
@@ -157,7 +155,6 @@ body{
 
 .platform-icons {
     margin-top: 20px;
-    z-index: 10;
 }
 
 .platform-icons div {
@@ -167,6 +164,84 @@ body{
 }
 
 .platform-icons div:hover {
-    transform: scale(1.2)
+    transform: scale(1.1)
 }
+
+.my-skills {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    padding: 80px 0px 80px 0px;
+    background-color: #f4f4f4;
+    flex-direction: column;
+}
+
+#heading-skills {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 48px;
+    color: #333333;
+    width: 100%;
+    text-align: center;
+}
+
+#skills-description {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #777777;
+    width: 100%;
+    text-align: center;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+.progress-containers {
+    display: flex;
+    /* padding-right: 80px;
+    padding-left: 80px; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.progress-containers .design-progress {
+    flex-basis: 40%;
+    padding-right: 20px;
+    display: block;
+    text-align: right;
+}
+
+.progress-containers .develop-progress {
+    flex-basis: 40%;
+    padding-left: 20px;
+    display:block;
+    text-align:left;
+    
+}
+
+.develop-progress span, .design-progress span {
+    color: #777777;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.progress {
+    margin-bottom: 16px;
+}
+
+
+#design, #develop{    
+    font-size: 26px;
+}
+
+
+
+
+
+
 
