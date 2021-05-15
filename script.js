@@ -1,4 +1,6 @@
-
+window.onload = () => {
+  project()
+}
 
 window.onscroll = () => {scrollFunction()}
 
@@ -10,3 +12,27 @@ const scrollFunction = () => {
 
   }
 }
+
+
+const project = () => {
+  let imageLink = document.querySelector("#image-link");
+  console.log(imageLink)
+    let button = document.querySelector("button")
+    let image = document.querySelector("img")
+    console.log(button, image)
+
+  imageLink.addEventListener("mouseenter", (e) => {
+    e.preventDefault();
+    button.style.opacity = "1";
+    image.style.opacity = "0.7"
+    
+  })
+
+  imageLink.addEventListener("mouseleave", (e) => {
+    e.preventDefault();
+    button.style.opacity = "0";
+    image.style.opacity = "1"
+    
+  })
+}
+

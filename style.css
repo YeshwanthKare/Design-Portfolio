@@ -269,21 +269,67 @@ body{
 .projects-container {
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-left: 80px;
-    margin-right: 80px;
+    padding-left: 65px;
+    padding-right: 50px;
+    transition: all 0.25s ease;
 }
 
-.projects-container a img {
+.projects-container #image-link {
     min-width: 500px;
     max-width: 600px;
     width: 100%;
     height: 300px;
-    padding: 10px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin: 5px;
+    transition: all .5s ease;
 }
+
+.projects-container #image-link a img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: contain;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.projects-container #image-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button-click {
+    /* background-position: center; */
+    transform: translate3d(0, 125px, 0);
+    z-index: 100000;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 8px 28px 8px 28px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+
+
+
 
 .footer {
     padding: 30px 0px 30px 0px;
