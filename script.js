@@ -5,7 +5,7 @@ window.onload = () => {
 window.onscroll = () => {scrollFunction()}
 
 const scrollFunction = () => {
-    if(document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    if(document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
         document.querySelector(".header-container").style.padding = "8px 100px 8px 100px";
     }else {
     document.querySelector(".header-container").style.padding = "44px 100px 44px 100px";
@@ -25,6 +25,7 @@ const project = () => {
     e.preventDefault();
     button.style.opacity = "1";
     image.style.opacity = "0.7"
+    imageLink.style.transform = "scale(1.05)" 
     
   })
 
@@ -32,6 +33,7 @@ const project = () => {
     e.preventDefault();
     button.style.opacity = "0";
     image.style.opacity = "1"
+    imageLink.style.transform = "scale(1)"
     
   })
 }

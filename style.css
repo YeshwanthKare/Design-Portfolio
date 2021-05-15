@@ -23,7 +23,7 @@ body{
     top: 0;
     z-index: 40;
     background-color: #fff;
-    transition: all 0.4s ease-in;
+    transition: all .4s ease-in;
 }
 
 
@@ -273,7 +273,7 @@ body{
     flex-wrap: wrap;
     padding-left: 65px;
     padding-right: 50px;
-    transition: all 0.25s ease;
+    transition: all 0.2s ease;
 }
 
 .projects-container #image-link {
@@ -289,6 +289,7 @@ body{
     z-index: 1;
     cursor: pointer;
     margin: 5px;
+    /* transform: scale(1.1) !important; */
     transition: all .5s ease;
 }
 
