@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+.body{
+    position: relative;
+}
+
+.menu-container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 44px 100px 44px 100px;
+    /* border: 1px solid black; */
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 0 40px 0 40px; */
+    box-sizing: border-box;
+    /* position: sticky;  */
+    top: 0;
+    z-index: 40;
+    /* background-color: #fff; */
+    transition: all .4s ease-in;
+}
+
+.menu-container a{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    padding: 16px;
+    font-size:11px;
+    text-decoration: none;
+    color: white;
+    /* color: #393e46; */
+}
+
+.menu-container a:hover {
+    color: darkslategray;
+    text-shadow: 0.1px 0.2px 1px rgba(20,17,17,0.29);
+}
+
+.menu-container a:active {
+    text-decoration: underline;
+}
+
+.hero-image::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/hero.png);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.hero-image {
+    height: 405px;
+    width: 100%;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9;
+    position: relative;
+}
+
+.hero-image > * {
+    z-index: 100000;
+}
+
+.project-name h1 {
+    color: white;
+}
+
+.project-name p{
+    text-align: center;
+    color: white;
+}
+
+.project-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 250px; */
+    transform: translate3d(0, 110px, 0);
+    align-self: flex-end;
+    color: white;
+}
