@@ -31,7 +31,8 @@
     padding: 16px;
     font-size:11px;
     text-decoration: none;
-    color: white;
+    /* color: white; */
+    color: #D9BF9F;
     /* color: #393e46; */
 }
 
@@ -75,6 +76,16 @@
     position: relative;
 }
 
+.hero-image h1 {
+    margin-right: 80px;
+    padding: 0;
+}
+
+.hero-image > p {
+    padding: 0;
+    margin: 0;
+}
+
 .hero-image > * {
     z-index: 100000;
 }
@@ -86,6 +97,10 @@
 .project-name p{
     text-align: center;
     color: white;
+    margin-right: 10px;
+    transform: translate3d(0, -25px, 0);
+    /* color: #D9BF9F; */
+    color:#dbab44;
 }
 
 .project-details {
@@ -95,5 +110,5 @@
     /* padding-top: 250px; */
     transform: translate3d(0, 110px, 0);
     align-self: flex-end;
-    color: white;
+    color: #D9BF9F;
 }
