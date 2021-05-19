@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 
 .body{
     position: relative;
+    scroll-behavior: smooth;
 }
 
 .menu-container {
@@ -33,6 +34,7 @@
     text-decoration: none;
     /* color: white; */
     color: #D9BF9F;
+    /* color: #501E1E; */
     /* color: #393e46; */
 }
 
@@ -123,3 +125,66 @@ table, th, td {
 th,td {
     text-align: center;
 }
+
+
+.project-start {
+    padding: 80px 200px 237px 200px;
+}
+
+.side-nav {
+    position: fixed;
+    top: 200px;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: #263238;
+}
+
+.side-nav a:hover {
+    color: #868788;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.side-nav ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+/* .side-nav ul li:hover {
+    color: #868788;
+} */
+
+
+h3 {
+    font-family: 'karla', sans-serif;
+    font-size: 30px;
+    color: #383838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scroll-icon {
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    font-size: 40px;
+}
+
+
