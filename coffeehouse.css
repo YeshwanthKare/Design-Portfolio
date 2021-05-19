@@ -31,13 +31,15 @@
     padding: 16px;
     font-size:11px;
     text-decoration: none;
-    color: white;
-    /* color: #D9BF9F; */
+    /* color: white; */
+    color: #D9BF9F;
     /* color: #393e46; */
 }
 
 .menu-container a:hover {
-    color: darkslategray;
+    color:#dbab44;
+    /* color: #393e46; */
+    /* color: darkslategray; */
     text-shadow: 0.1px 0.2px 1px rgba(20,17,17,0.29);
 }
 
@@ -111,4 +113,13 @@
     transform: translate3d(0, 110px, 0);
     align-self: flex-end;
     color: #D9BF9F;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th,td {
+    text-align: center;
 }
