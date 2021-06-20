@@ -25,7 +25,7 @@ const project = () => {
     console.log(project)
     projectSelector += `
       <div id="image-link" class="to-do beat-box weather blog netflix">
-          <a href=${project.projectLink}>
+          <a target="_blank" href=${project.projectLink}>
               <button class="button-click">${project.buttonText}</button>
               <img src=${project.imageSrc} alt="">
           </a>
