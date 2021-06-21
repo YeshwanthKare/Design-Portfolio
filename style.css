@@ -413,6 +413,13 @@ body{
 }
 
 
+@media only screen and (max-width: 768px){
+    .projects-container {
+        grid-template: repeat(6, 1fr) / repeat(1, 1fr);
+    }
+}
+
+
 
 
 
