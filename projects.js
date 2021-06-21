@@ -3,7 +3,7 @@ let projects = [
 	
 	projectLink : "/coffeehouse.html",
 	buttonText : "Coffee House",
-	imageSrc : "/assets/imgonline-com-ua-twotoone-cRtzqqBfgi9.jpg"
+	imageSrc : "/assets/coffeeHouse.jpg"
 	
     },
     {
@@ -23,7 +23,7 @@ let projects = [
     {
 	projectLink: "https://yeshwanthkare.github.io/Weather-App/",
 	buttonText: "Weather App",
-	imageSrc: "/assets/weather.JPG"
+	imageSrc: "/assets/weatherapp.jpg"
     },
     {
 	projectLink: "https://my-blog-app-2ffbe.web.app",

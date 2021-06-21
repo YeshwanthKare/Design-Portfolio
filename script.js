@@ -1,5 +1,5 @@
 window.onload = () => {
-  project()
+  project();
 }
 
 window.onscroll = () => {scrollFunction()}
@@ -21,44 +21,21 @@ const project = () => {
   let projectSelector = "";
 
   for (let project of projects) {
-    console.log(projectsContainer)
-    console.log(project)
+    
     projectSelector += `
       <div id="image-link" class="to-do beat-box weather blog netflix">
           <a target="_blank" href=${project.projectLink}>
               <button class="button-click">${project.buttonText}</button>
-              <img src=${project.imageSrc} alt="">
+              <img class="prjct-image" src=${project.imageSrc} alt="">
           </a>
       </div>
-    `   
-     
+    `        
   }
+  projectsContainer.innerHTML += projectSelector   
 
-  projectsContainer.innerHTML += projectSelector 
-
-  for(let project of projects){
-    let imageLink = document.querySelector("#image-link");
-    // console.log(imageLink)
-    let button = document.querySelector(".button-click")
-    let image = document.querySelector("img")
-
-    imageLink.addEventListener("mouseenter", (e) => {
-      e.preventDefault();
-      button.style.opacity = "1";
-      image.style.opacity = "0.7"
-      imageLink.style.transform = "scale(1.05)" 
-      
-    })
-
-    imageLink.addEventListener("mouseleave", (e) => {
-      e.preventDefault();
-      button.style.opacity = "0";
-      image.style.opacity = "1"
-      imageLink.style.transform = "scale(1)"
-      
-    })
-  }
+  console.log(projectsContainer)
 }
+
 
 
 
