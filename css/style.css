@@ -321,7 +321,7 @@ body{
     height: 300px;
     z-index: -1;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
     border: 1px groove rgba(0,0,0,0.29);
 }
 

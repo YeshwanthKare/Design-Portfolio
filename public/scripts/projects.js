@@ -1,7 +1,7 @@
 let projects = [
     {
 	
-	projectLink : "/coffeehouse.html",
+	projectLink : "/html/coffeehouse.html",
 	buttonText : "Coffee House",
 	imageSrc : "/assets/coffeeHouse.jpg"
 	
@@ -33,6 +33,6 @@ let projects = [
     {
 	projectLink: "https://netflix-clone-c0ee4.web.app",
 	buttonText: "Netflix Clone",
-	imageSrc: "/assets/netflix.JPG"
+	imageSrc: "../assets/netflix.JPG"
     }
 ]

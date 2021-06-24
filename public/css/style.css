@@ -26,6 +26,13 @@ body{
     transition: all .4s ease-in;
 }
 
+
+
+.header-container a {
+    /* padding: 30px 0 30px 0; */
+}
+
+
 .header-container > a:hover {
     text-shadow: 0px 1px 1px rgba(20,17,17,0.29);
     cursor: pointer;
@@ -88,7 +95,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(./assets/pro.jpg);
+    background-image: url(/assets/pro.jpg);
     background-position:top;
     background-size:cover;
     object-fit:contain;
@@ -291,6 +298,10 @@ body{
     box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.29);
 }
 
+#image-link a img:hover {
+    opacity: 0.7;
+}
+
 
 #image-link:hover {
     background-color: rgba(0,0,0,0.29);
@@ -304,8 +315,8 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
+    object-fit:cover;
     border-radius: 8px;
-    object-fit: cover;
     width: 100%;
     height: 300px;
     z-index: -1;
@@ -313,6 +324,7 @@ body{
     transition: all 0.25s ease;
     border: 1px groove rgba(0,0,0,0.29);
 }
+
 
 
 

@@ -33,8 +33,6 @@ const project = () => {
   }
   projectsContainer.innerHTML += projectSelector   
 
-  document.querySelector("img").style.objectFit = "cover";
-
   console.log(projectsContainer)
 }
 
