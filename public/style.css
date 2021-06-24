@@ -270,10 +270,10 @@ body{
 .projects-container {
     width: 100%;
     display: grid;
-    padding-left: 65px;
-    padding-right: 50px;
+    padding-left: 75px;
+    padding-right: 80px;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 70px;
 }
 
 .projects-container #image-link {
@@ -283,7 +283,7 @@ body{
     position: relative;
     z-index: 1;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all .25s ease-in-out;
     border-radius: 8px;
 } 
 
@@ -294,14 +294,14 @@ body{
 
  #image-link:hover a img {
     border: none;
-    transform: scale(1.03);
+    transform: scale(1.01);
     box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.29);
 }
 
 
 #image-link:hover {
     background-color: rgba(0,0,0,0.29);
-    transform: scale(1.03);
+    transform: scale(1.01);
     border-radius: 8px;
 }
 
@@ -311,13 +311,13 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    object-fit:cover;
+    object-fit:contain;
     border-radius: 8px;
     width: 100%;
     height: 300px;
     z-index: -1;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
     border: 1px groove rgba(0,0,0,0.29);
 }
 
@@ -347,7 +347,13 @@ body{
 }
 
 .projects-button {
-    margin-top: 50px;
+    margin-top: 100px;
+    /* background-color: #0A1D37; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .projects-button button {
