@@ -2,13 +2,13 @@ window.onload = () => {
   project();
 }
 
-window.onscroll = () => {scrollFunction()}
+window.onscroll = () => {scrollFunction(".header-container")}
 
-const scrollFunction = () => {
+const scrollFunction = (header) => {
     if(document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-        document.querySelector(".header-container").style.padding = "8px 100px 8px 100px";
+        document.querySelector(header).style.padding = "8px 100px 8px 100px";
     }else {
-    document.querySelector(".header-container").style.padding = "44px 100px 44px 100px";
+    document.querySelector(header).style.padding = "44px 100px 44px 100px";
 
   }
 }
