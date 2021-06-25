@@ -15,7 +15,7 @@ const developerProject = () => {
       <div id="develop-image-link">
           <a target="_blank" href=${project.projectLink}>
               <button class="button-click">${project.buttonText}</button>
-              <img class="prjct-image" src=${project.imageSrc} alt="">
+              <img class="prjct-image" src=${project.imageSrc} alt="">               
           </a>
       </div>
     `        
