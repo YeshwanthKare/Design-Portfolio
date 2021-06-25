@@ -19,7 +19,7 @@ let developerProjects = [
     {
 	projectLink: "https://netflix-clone-c0ee4.web.app",
 	buttonText: "Netflix Clone",
-	imageSrc: "/public/assets/netflix.JPG"
+	imageSrc: "/assets/netflix.JPG"
     },
     {
 	projectLink: "https://my-blog-app-2ffbe.web.app",
