@@ -10,7 +10,6 @@ const developerProject = () => {
 
   for (let project of developerProjects) {
 	  console.log(project)
-    console.log(project.imageSrc)
     
     projectSelector += `
       <div id="develop-image-link">

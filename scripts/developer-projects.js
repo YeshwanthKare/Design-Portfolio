@@ -2,7 +2,7 @@ let developerProjects = [
     {
 	projectLink: "https://yesh-react-amazon-cart.netlify.app",
 	buttonText: "React Amazon Cart",
-	imageSrc: "/assets/amazon-cart.JPG"
+	imageSrc: "/assets/amazon-cart.png"
     },
     {
 	
@@ -14,7 +14,7 @@ let developerProjects = [
     {
 	projectLink: "https://image-gram-test.herokuapp.com/",
 	buttonText: "ImageGram",
-	imageSrc: "/assets/imagegram.JPG"
+	imageSrc: "/assets/imagegram.png"
     },
     {
 	projectLink: "https://netflix-clone-c0ee4.web.app",
@@ -41,11 +41,11 @@ let developerProjects = [
     {
 	projectLink: "https://yeshwanthkare.github.io/Text-Editor/",
 	buttonText: "Text Editor",
-	imageSrc: "/assets/text-editor.JPG"    
+	imageSrc: "/assets/text-editor.png"    
     },
     {
 	projectLink: " https://yeshwanthkare.github.io/Guess-the-Number-Game/",
 	buttonText: "Guess the Number",
-	imageSrc: "/assets/guess.JPG"    
+	imageSrc: "/assets/guess.png"    
     }
 ]
