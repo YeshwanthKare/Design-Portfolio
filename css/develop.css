@@ -43,6 +43,18 @@
     transform: scale(1.01);
 }
 
+#develop-image-link:hover a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.29);
+    border-radius: 4px;
+    transform: scale(1.01);
+}
+
 
 .develop-projects-container #develop-image-link a img{
     position: absolute;
