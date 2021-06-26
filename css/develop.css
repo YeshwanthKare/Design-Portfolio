@@ -75,8 +75,7 @@
 
 .develop-projects-container #develop-image-link a .button-click {
     /* margin-bottom: 69%; */
-    position: absolute;
-    bottom: 81%;
+    transform: translate3d(0, 125px, 0);
     z-index: 100000;
     background-color: black;
     border: 2px solid white;
