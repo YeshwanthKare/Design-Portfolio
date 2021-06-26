@@ -181,7 +181,7 @@
 
 .button-click {
     /* background-position: center; */
-    /* transform: translate3d(0, 125px, 0); */
+    transform: translate3d(0, 125px, 0);
     z-index: 100000;
     background-color: black;
     border: 2px solid white;
