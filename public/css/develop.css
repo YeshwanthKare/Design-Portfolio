@@ -23,7 +23,7 @@
     color: #0A1931;
 }
 
-.projects-category .design:after, .projects-category .develop:after {
+.projects-category .design:after {
     content: "";
     border-bottom: 4px solid rgb(62, 161, 185);
     display: block;
@@ -31,7 +31,7 @@
     transition: transform 250ms ease-in-out;
 }
 
-.projects-category .design:hover:after, .projects-category .develop:hover:after {
+.projects-category .design:hover:after{
     transform: scaleX(1); 
 }
 
@@ -39,11 +39,13 @@
 
 .projects-category .develop {
 	opacity: 1;
-
+    border-bottom: 3px solid #393e46;
+    
 }
 
 .projects-category .design {
 	opacity: 0.5;
+    border: none;
 }
 
 .develop-projects-container {

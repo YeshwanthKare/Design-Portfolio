@@ -59,29 +59,29 @@
     color: #393e46;
 }
 
-.projects-category {
+.design-projects-category {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 200px 0 200px;
 }
 
-.projects-category h2 {
+.design-projects-category h2 {
     font-size: 30px;
     color: #0A1931;
 }
 
-.projects-category h2:hover {
+.design-projects-category h2:hover {
     color: #598e9b;
 }
 
-.projects-category a {
+.design-projects-category a {
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     color: #0A1931;
 }
 
-.projects-category .design:after, .projects-category .develop:after {
+/* .projects-category .design:after, .projects-category .develop:after {
     content: "";
     border-bottom: 4px solid rgb(62, 161, 185);
     display: block;
@@ -91,11 +91,28 @@
 
 .projects-category .design:hover:after, .projects-category .develop:hover:after {
     transform: scaleX(1); 
-}
+} */
 
-.projects-category .develop {
+.design-projects-category .develop {
     opacity: 0.4;
 }
+
+.design-projects-category .design {
+    border-bottom: 3px solid #393e46;
+}
+
+.design-projects-category .develop:after { 
+    content: "";
+    border-bottom: 4px solid rgb(62, 161, 185);
+    display: block;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.design-projects-category .develop:hover:after {
+    transform: scaleX(1); 
+}
+
 
 .design-projects {
     display: flex;
@@ -111,7 +128,7 @@
     display: grid;
     padding-left: 75px;
     padding-right: 80px;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
     grid-gap: 20px;
 }
 
@@ -196,6 +213,12 @@
 
 .design-projects-container #image-link:hover a .button-click {
     opacity: 1;
+}
+
+.design-footer {
+    height: 100px;
+    background-color: #598e9b;
+    width: 100%;
 }
 
 
