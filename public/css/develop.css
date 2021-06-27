@@ -115,7 +115,7 @@
 }
 
 .develop-projects-container #develop-image-link a .button-click {
-    margin-bottom: 100%;
+    /* margin-bottom: 100%; */
     /* transform: translate3d(0, 125px, 0); */
     z-index: 100000;
     background-color: black;
