@@ -194,6 +194,9 @@
 }
 
 
+.design-projects-container #image-link:hover a .button-click {
+    opacity: 1;
+}
 
 
 
