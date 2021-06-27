@@ -181,6 +181,7 @@
 
 .design-projects-container #image-link a .button-click {
     /* margin-bottom: 100%; */
+    transform: translate3d(0, 115px, 0);
     z-index: 100000;
     background-color: black;
     border: 2px solid white;
