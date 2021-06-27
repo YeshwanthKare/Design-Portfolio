@@ -1,9 +1,9 @@
 window.onload = () => {
 	developerProject()
 }
-window.onscroll = () => {scrollFunction(".work-header")}
+window.onscroll = () => {scrollFunctionDevelop(".work-header")}
 
-const scrollFunction = (header) => {
+const scrollFunctionDevelop = (header) => {
     if(document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
         document.querySelector(header).style.padding = "8px 100px 8px 100px";
     }else {
