@@ -1,0 +1,11 @@
+.houston-model-images .img-1 {
+	width:30%;
+	height:auto;
+}
+
+.houston-model-images {
+	width:100%;
+	background-color: radial-gradient(circle, 
+	#050620, #202060 150px
+	);
+}
