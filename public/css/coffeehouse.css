@@ -11,6 +11,9 @@
 .body{
     position: relative;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .menu-container {
@@ -119,6 +122,47 @@
     transform: translate3d(0, 110px, 0);
     align-self: flex-end;
     color: #D9BF9F;
+}
+
+.project-details button {
+    padding: 17px 65px;
+    transform: translate3d(0px, -20px, 0px);
+    border: none;
+    /* background-color:#fef; */
+    border: 1px solid #fef;
+    color: #fef;
+    background-color: #dbab44;
+}
+
+.project-details button:focus, .process-deck button:focus {
+    outline: none;
+}
+
+.project-details button:hover, .process-deck button:hover {
+    /* color: #fff; */
+    color: #dbab44;
+    background-color: #fef;
+}
+
+
+.project-details button a {
+    text-decoration: none;
+}
+
+.project-details button, .process-deck button {
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    letter-spacing: 2px;
+}
+
+.process-deck button {
+    padding: 17px 65px;
+    border: none;
+    border: 1px solid #dbab44;
+    color: #fff;
+    background-color: #dbab44;
+
 }
 
 table, th, td {
@@ -763,6 +807,16 @@ td {
     font-size: 18px;
     text-align: justify;
     padding-left: 20px;
+}
+
+.process-deck {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.process-deck a {
+
 }
 
 .footer {
