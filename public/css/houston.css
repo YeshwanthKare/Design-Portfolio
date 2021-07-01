@@ -1,11 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+.houston-model-images{
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
+	margin: 80px 0 0px 0;
+	padding:0;
+}
+
+.houston-model-images img {
+	/* padding: 0 10px 0 10px; */
+}
+
 .houston-model-images .img-1 {
+	/* margin:80px auto; */
+	/* text-align: center; */
+	display:flex;
+	justify-content:center;
+	align-items: center;
 	width:30%;
 	height:auto;
 }
 
-.houston-model-images {
+.houston-model-images .img-2 {
+	width:30.92%;
+	height:auto;
+}
+
+.houston-model-images {	
 	width:100%;
-	background-color: radial-gradient(circle, 
-	#050620, #202060 150px
-	);
+	background: radial-gradient(ellipse at top, #050620, transparent),
+            radial-gradient(ellipse at bottom, #050620, transparent),
+	    radial-gradient(ellipse at left, #09193E, transparent),
+	    radial-gradient(ellipse at right, #09193E, transparent);
+}
+
+.houston-model-images-1 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	background: radial-gradient(ellipse at top, #050620, transparent),
+            radial-gradient(ellipse at bottom, #050620, transparent),
+	    radial-gradient(ellipse at left, #09193E, transparent),
+	    radial-gradient(ellipse at right, #09193E, transparent);;
+	align-items: flex-start;
+}
+
+.houston-model-images-1 img {
+	padding: 80px 0 80px 0;
+	width: 170px;
+
+}
+
+
+.style-guide img {
+	width: 80%;
+	height: auto;
 }
