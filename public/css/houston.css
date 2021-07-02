@@ -1,8 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
 }
+
+.houston-menu-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 44px 100px 44px 100px;
+    /* border: 1px solid black; */
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 0 40px 0 40px; */
+    box-sizing: border-box;
+    /* position: sticky;  */
+    top: 0;
+    z-index: 40;
+    /* background-color: #fff; */
+    transition: all .4s ease-in;
+}
+
+.houston-menu-container a{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    padding: 16px;
+    font-size:11px;
+    text-decoration: none;
+    /* color: white; */
+    color: #f39422;
+    /* color: #501E1E; */
+    /* color: #393e46; */
+}
+
+.houston-menu-container a:hover {
+    color:#e0a880;
+    text-shadow: 0.1px 0.2px 1px rgba(20,17,17,0.29);
+}
+
+.houston-menu-container a:active {
+    text-decoration: underline;
+}
+
+.houston-hero-image {
+    height: 405px;
+    width: 100%;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+    /* background: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9;
+    position: relative;
+}
+
+.houston-hero-image::before {
+    content: "";
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.houston-hero-image h1 {
+    margin-right: 80px;
+    padding: 0;
+}
+
+.houston-hero-image > p {
+    padding: 0;
+    margin: 0;
+}
+
+.houston-hero-image > * {
+    z-index: 100000;
+}
+
+.houston-project-name h1 {
+    color: white;
+}
+
+.houston-project-name p{
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+    transform: translate3d(0, -25px, 0);
+    /* color: #D9BF9F; */
+    color:#f39442;
+}
+
+.houston-project-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 250px; */
+    transform: translate3d(0, 110px, 0);
+    align-self: flex-end;
+    color: #f39422;
+}
+
+.houston-project-details button {
+    padding: 17px 65px;
+    transform: translate3d(0px, -20px, 0px);
+    border: none;
+    /* background-color:#fef; */
+    border: 1px solid #fef;
+    color: #fef;
+    background-color: #dbab44;
+}
+
+.houston-project-details button:focus, .process-deck button:focus {
+    outline: none;
+}
+
+.houston-project-details button:hover, .process-deck button:hover {
+    /* color: #fff; */
+    color: #dbab44;
+    background-color: #fef;
+}
+
+.process-deck button:hover {
+    color: #fff;
+    background-color: #263238;
+}
+
+
+.houston-project-details button a {
+    text-decoration: none;
+}
+
+.houston-project-details button, .process-deck button {
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    letter-spacing: 2px;
+    transition: all ease 0.25s;
+}
+
+.process-deck button {
+    padding: 17px 65px;
+    border: none;
+    border: 1px solid #263238;
+    color: #263238;
+    background-color: #fff;
+
+}
+
+table, th, td {
+    border: 1px solid rgb(41, 171, 194);
+    padding: 10px;
+    font-family: "Karla", sans-serif;
+}
+
+th,td {
+    text-align: center;
+}
+
+.houston-project-start {
+    padding: 80px 200px 237px 200px;
+    /* background-color: #2F4858; */
+    background-color: #183059;
+    /* background-color: #F7ECE1;
+    background-color: #09193e; */
+}
+
+.houston-movies h1 {
+	color: #fafaff;
+	color:#f5f0f6;
+}
+
+.houston-movies p {
+	color: #f6ae2d;
+}
+
+.houston-side-nav {
+    position: fixed;
+    top: 140px;
+}
+
+.houston-side-nav a {
+    text-decoration: none;
+    color: #f6ae2d;
+
+}
+
+.houston-side-nav a:hover {
+    color: #e0a880;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.houston-side-nav ul li {
+    list-style-type: none;
+    padding: 8px 5px 8px 5px;
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+
+body {
+	/* background-color: #2f4858; */
+}
+
+h3 {
+    font-family: 'karla', sans-serif;
+    font-size: 30px;
+    color: #F6AE2D;
+}
+
+
+.houston-movies, .houston-kick {
+    margin: auto;
+    width:60%;
+    padding-bottom: 80px;
+}
+
+.houston-kick {
+    padding-top: 100px;
+}
+
+
+.houston-movies h1 {
+    /* color: #0C0E08; */
+    text-align: center;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    font-weight: 700;
+    /* color: #383838; */
+    /* font-family: "karla", sans-serif; */
+}
+
+.houston-movies p {
+    /* color: rgb(145,145,145); */
+    font-family: 'Karla', sans-serif;
+    /* color: #4f5b62; */
+    vertical-align: baseline;
+    word-wrap:break-word;
+    font-size: 18px;
+    text-align:start;
+    text-align: justify;
+    /* padding-left: 20px; */
+    letter-spacing: 0.3px;
+    line-height: 1.4em;
+}
+
+.houston-question {
+    display: grid;
+    justify-content: space-around;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.houston-question div {
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.houston-question p {
+    color: #221b1b;
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+}
+
+.houston-kick h3 {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 34px;
+    font-family: "Karla", sans-serif;
+    color: #0c0e08;
+    font-weight: 700;
+}
+
+.houston-kick p {
+    text-align: justify;
+    letter-spacing: -0.0222222rem;
+    font-family: 'Karla',sans-serif;
+    color: #4f5b62;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.houston-project-description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 0px 0 60px 0;
+}
+
+.houston-project-vision {
+    /* flex-basis: 40%; */
+    width: 60%;
+    padding-left: 0px;
+}
+
+.houston-project-vision h3 {
+    padding-left: 30px;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    /* color: #0c0e08; */
+    font-weight: 700;
+}
+
+.houston-project-challenges {
+    /* flex-basis: 40%; */
+    width: 70%;
+    padding-left: 20px;
+    padding-left: 100px;
+}
+
+.houston-project-challenges h3 {
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: "Karla", sans-serif;
+    /* color: #0c0e08; */
+    font-weight: 700;
+}
+
+ol {
+    list-style: none; 
+    counter-reset: li;
+    padding-top: 30px;
+}
+
+ol li::before {
+    content: counter(li); 
+    color: #345fc4;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-weight: 700;
+    /* padding-left: 20px; */
+}
+
+li {
+    counter-increment: li
+}
+
+ol li {
+    padding-left: 10px;
+}
+
+.houston-project-vision p {
+    padding-left: 30px;
+    color: #4f5b62;
+    color: #f6ae2d;
+    font-size: 19px;
+    line-height: 1.4em;
+    font-family: "Karla", sans-serif;
+    word-wrap: break-word;
+    vertical-align: baseline;
+    padding-top: 30px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+}
+
+.houston-project-challenges ul {
+    padding-top: 30px;
+}
+
+.houston-project-challenges li {
+    font-size: 19px;
+    color: #57564D;
+    color: #F6AE2D;
+    line-height: 1.8em;
+    font-family: "Karla", sans-serif;
+    text-align: justify;
+}
+
+
+.houston-project-image-start{
+    margin: auto;
+    width:100%;
+    height: auto;
+    text-align: center;
+}
+
+.houston-project-image-start img {
+	object-fit: cover;
+	width: 100%;
+	box-shadow: 0px 2px 5px 0px rgba(20,17,17,0.89);
+}
+
+
+
+
+
+
+
+
+
 
 .houston-model-images{
 	display:flex;
