@@ -1101,5 +1101,7 @@ table {
 }
 
 .scroll-icon a {
-    color: #488B90;
+    color: #f39422;
+    font-size: 40px;
+    font-weight:500;
 }
