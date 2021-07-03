@@ -3,13 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
+    /* background-color: #09193E; */
 }
 
 .houston-menu-container {
@@ -35,8 +36,8 @@ body {
     padding: 16px;
     font-size:11px;
     text-decoration: none;
-    /* color: white; */
-    color: #f39422;
+    color: white;
+    /* color: #f39422; */
     /* color: #501E1E; */
     /* color: #393e46; */
 }
@@ -84,6 +85,7 @@ body {
 .houston-hero-image h1 {
     margin-right: 80px;
     padding: 0;
+    font-family: 'Merriweather', serif;
 }
 
 .houston-hero-image > p {
@@ -105,7 +107,9 @@ body {
     margin-right: 10px;
     transform: translate3d(0, -25px, 0);
     /* color: #D9BF9F; */
-    color:#f39442;
+    /* color:#f39442; */
+    opacity: 0.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .houston-project-details {
@@ -115,7 +119,9 @@ body {
     /* padding-top: 250px; */
     transform: translate3d(0, 110px, 0);
     align-self: flex-end;
-    color: #f39422;
+    /* color: #f39422; */
+    color: white;
+    opacity: 0.8;
 }
 
 .houston-project-details button {
@@ -140,7 +146,7 @@ body {
 
 .process-deck button:hover {
     color: #fff;
-    background-color: #263238;
+    background-color: #050505;
 }
 
 
@@ -167,6 +173,7 @@ body {
 
 table, th, td {
     border: 1px solid rgb(41, 171, 194);
+    border: 1px solid #bb9e60;
     padding: 10px;
     font-family: "Karla", sans-serif;
 }
@@ -174,6 +181,8 @@ table, th, td {
 th,td {
     text-align: center;
 }
+
+
 
 .houston-project-start {
     padding: 80px 200px 237px 200px;
@@ -184,12 +193,19 @@ th,td {
 }
 
 .houston-movies h1 {
-	color: #fafaff;
-	color:#f5f0f6;
+	/* color: #fafaff;
+	color:#f5f0f6; */
+    color: #f39422;
+    font-family: "Roboto", sans-serif;
 }
 
 .houston-movies p {
-	color: #f6ae2d;
+	/* color: #f6ae2d; */
+    color: rgb(228, 220, 220);
+    /* color: white; */
+    opacity: 0.9;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Karla", sans-serif;
 }
 
 .houston-side-nav {
@@ -199,7 +215,9 @@ th,td {
 
 .houston-side-nav a {
     text-decoration: none;
-    color: #f6ae2d;
+    /* color: #f6ae2d; */
+    color: #ffc100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -223,9 +241,10 @@ body {
 }
 
 h3 {
-    font-family: 'karla', sans-serif;
+    /* font-family: 'karla', sans-serif; */
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
-    color: #F6AE2D;
+    color: #f39422;
 }
 
 
@@ -254,7 +273,7 @@ h3 {
 
 .houston-movies p {
     /* color: rgb(145,145,145); */
-    font-family: 'Karla', sans-serif;
+    /* font-family: 'Karla', sans-serif; */
     /* color: #4f5b62; */
     vertical-align: baseline;
     word-wrap:break-word;
@@ -284,9 +303,27 @@ h3 {
 
 .houston-question p {
     color: #221b1b;
+    color: #ffc100;
     font-size: 16px;
     font-family: "Karla", sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-weight: 800;
+}
+
+.houston-project-kickoff {
+    /* background: 
+        radial-gradient(ellipse at top, #050620, transparent),
+        radial-gradient(ellipse at bottom, #050620, transparent),
+	    radial-gradient(ellipse at left, #09193E, transparent),
+	    radial-gradient(ellipse at right, #09193E, transparent);; */
+}
+
+.houston-kick {
+    /* background: 
+        radial-gradient(ellipse at top, #050620, transparent),
+        radial-gradient(ellipse at bottom, #050620, transparent),
+	    radial-gradient(ellipse at left, #09193E, transparent),
+	    radial-gradient(ellipse at right, #09193E, transparent);; */
 }
 
 .houston-kick h3 {
@@ -294,7 +331,10 @@ h3 {
     padding-bottom: 20px;
     font-size: 34px;
     font-family: "Karla", sans-serif;
-    color: #0c0e08;
+    color: #5d6155;
+    color: white;
+    color: #f39422;
+    /* opacity: 0.9; */
     font-weight: 700;
 }
 
@@ -302,9 +342,43 @@ h3 {
     text-align: justify;
     letter-spacing: -0.0222222rem;
     font-family: 'Karla',sans-serif;
-    color: #4f5b62;
+    /* font-family: ; */
+    color: white;
     font-size: 18px;
     font-weight: 400;
+    /* color: white; */
+    opacity: 0.9;
+}
+
+.houston-research {
+    padding: 80px 200px 80px 200px;
+}
+
+.houston-user-research {
+    margin: auto;
+    width:70%;
+    padding-bottom: 80px;
+}
+
+.houston-user-research h3 {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 34px;
+    font-family: "Karla", sans-serif;
+    /* color: #0c0e08; */
+    color: #f39422;
+    font-weight: 700;
+    
+}
+
+.houston-user-research p {
+    text-align: justify;
+    letter-spacing: -0.0222222rem;
+    font-family: 'Karla',sans-serif;
+    color: #4f5b62;
+    font-size: 18px;
+    font-weight: 500;
+    /* line-height: 1.8em; */
 }
 
 .houston-project-description {
@@ -352,7 +426,7 @@ ol {
 
 ol li::before {
     content: counter(li); 
-    color: #345fc4;
+    color: #f39422;
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
@@ -371,7 +445,8 @@ ol li {
 .houston-project-vision p {
     padding-left: 30px;
     color: #4f5b62;
-    color: #f6ae2d;
+    color: white;
+    color: rgb(228,220,220);
     font-size: 19px;
     line-height: 1.4em;
     font-family: "Karla", sans-serif;
@@ -380,6 +455,7 @@ ol li {
     padding-top: 30px;
     letter-spacing: 0.3px;
     text-align: justify;
+    opacity: 0.9;
 }
 
 .houston-project-challenges ul {
@@ -389,7 +465,9 @@ ol li {
 .houston-project-challenges li {
     font-size: 19px;
     color: #57564D;
-    color: #F6AE2D;
+    color: white;
+    color: rgb(228, 220, 220);
+    opacity: 0.9;
     line-height: 1.8em;
     font-family: "Karla", sans-serif;
     text-align: justify;
@@ -410,24 +488,341 @@ ol li {
 }
 
 
+.houston-project-kickoff {
+    padding: 30px 200px 100px 200px;
+    /* background: #F4F4F4;
+     */
+    background: radial-gradient(circle, #09193e, #050620);
+    /* radial-gradient(ellipse at top, #09193e, transparent),
+        radial-gradient(ellipse at bottom, #09193e, transparent),
+	    radial-gradient(ellipse at left, #050620, transparent),
+	    radial-gradient(ellipse at right, #050620, transparent); */
+}
+
+.houston-research {
+    padding: 80px 200px 80px 200px;
+    background: #183059;
+}
+
+
+.houston-user-research h3 {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 34px;
+    font-family: "Karla", sans-serif;
+    color: #0c0e08;
+    color: #ffc100;
+    font-weight: 700;
+    
+}
+
+.houston-user-research p {
+    text-align: justify;
+    letter-spacing: -0.0222222rem;
+    font-family: 'Karla',sans-serif;
+    color: #4f5b62;
+    color: white;
+    opacity: 0.9;
+    font-size: 18px;
+    font-weight: 500;
+    /* line-height: 1.8em; */
+}
+
+.houston-user-accessiblity h4, 
+.houston-user-button h4, 
+.houston-user-quality h4 {
+    color: #ffc100;
+
+}
+
+
+.houston-pain-points {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 120px;
+    padding-right: 40px;
+}
+
+.houston-pain-points div {
+    width: 80%;
+}
+
+.houston-pain-points div h4 {
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.houston-pain-points div p {
+    color: #221b1b;
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    color: white;
+    opacity: 0.9;
+}
+
+
+.houston-persona-container {
+    padding: 80px 150px 120px 200px;
+    background-color: #FFF;
+    background: radial-gradient(circle, #09193e, #050620);
+    margin: auto;
+    width: 100%;
+}
+
+.houston-persona-container  div h3 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: 700;
+    font-size: 34px;
+    font-family: "Karla", sans-serif;
+    color: #0c0e08;
+    color: #f39422;
+    
+}
+
+
+.houston-personas {
+    display: flex;
+    justify-content:space-between;
+    /* flex-direction: column; */
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user ul li {
+    padding: 4px;
+    color: #4f5b62;
+}
+
+.user p{
+    width: 75%;
+    text-align: justify;
+    padding-top: 30px;
+    color: white;
+    font-family: "Karla", sans-serif;
+    opacity: 0.9;
+}
+
+.user-scenario {
+    display: flex;
+}
+
+.user-details h5 {
+    padding-left: 30px;
+    color: #221b1b;
+    /* font-weight: 600; */
+    /* font-size: 30px; */
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    color: #ffc100;
+}
+
+b {
+    color: #ffc100;
+}
+
+.user-details ul li {
+    color: white;
+    font-family:"Karla", sans-serif;
+}
+
+.user-person p{
+    color: white;
+}
+
+.houston-analysis {
+    padding: 80px 150px 120px 300px;
+    background-color: #F4F4F4;
+    background: radial-gradient(circle,#183059, #050620);
+}
 
 
 
+th {
+    background-color: #f39422;
+    color: #050620;
+}
+
+td {
+    background-color: #09193e;
+    color: #f39422;
+    color: white;
+}
+
+.houston-analysis h3, .houston-user-flow h3, .digital-wf h3 {
+    font-size: 30px;
+    padding-bottom: 34px;
+    font-family: "Karla", sans-serif;
+    color: #0c0e08;
+    font-weight: 700;
+    color: #f39422;
+    
+}
+
+.houston-user-flow {
+    background:  #183059;
+}
+
+.houston-analysis p, .houston-user-flow p, .digital-wf p {
+    text-align: justify;
+    letter-spacing: -0.0222222rem;
+    font-family: 'Karla',sans-serif;
+    color: #4f5b62;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: white;
+}
+
+table {
+    transform: translate3d(20px, 0, 0);
+}
+
+.houston-user-flow {
+    padding: 120px 200px 120px 300px;
+}
+
+.houston-user-flow h3 {
+    font-size: 30px;
+    font-family: "Karla", sans-serif;
+    color: #0c0e08;
+    font-weight: 600;
+    color: #f39422;
+}
+
+.houston-user-flow img {
+    padding-top: 40px;
+    /* padding-left: -60px; */
+}
+
+.houston-user-flow p {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.paper-wire-frame {
+    margin: auto;
+    width: 100%;
+    padding-left: 300px;
+    padding-top: 100px;
+    background-color: #F4F4F4;
+    background: #09193e;
+}
+
+.paper-wire-frame img {
+    background-color: #032224;
+    background-blend-mode:screen;
+
+}
 
 
 
+.digital-wf {
+    padding: 80px 200px 130px 300px;
+    background-color: #F4F4F4;
+    width: 100%;
+    background-color: #09193e;
+}
+
+.digital-wf img {
+    /* padding-left: 20px; */
+    padding-top: 30px;
+    margin: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.houston-iteration {
+    padding: 80px 200px 80px 200px;
+    margin: auto;
+    width:100%;
+    padding-bottom: 80px;
+    background-color: #183059;
+}
+
+.houston-iteration h3, .iteration h6 {
+    text-align: left;
+    padding-bottom: 20px;    
+}
+
+
+.houston-iteration h3 {
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Karla", sans-serif;
+    color:#0C0E08;
+    color: #f39422;
+}
+
+.houston-iteration h6 {
+    color: #488B90;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffc100;
+}
+
+
+.houston-iteration-description {
+    width: 70%;
+    margin: auto;
+    /* padding-left: 20px; */
+}
+
+.houston-iteration p {
+    text-align: justify;
+    letter-spacing: -0.0222222rem;
+    font-family: 'Karla',sans-serif;
+    color: #57564D;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    opacity: 0.9;
+    /* line-height: 1.8em; */
+}
+
+.houston-iteration-results div p {
+    font-size: 17px;
+    width: 70%;
+    color: #4f5b62;
+    color: white;
+    opacity: 0.9;
+}
+
+.houston-iteration-results {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 40px 0 0px 120px;
+    
+    /* padding-left: 120px; */
+    /* padding-right: 40px; */
+}
+
+.houston-iteration-results div {
+    width: 100%;
+    padding: 20px;
+}
 
 
 .houston-model-images{
 	display:flex;
 	justify-content:space-evenly;
 	align-items: center;
-	margin: 80px 0 0px 0;
+	/* margin: 80px 0 0px 0; */
 	padding:0;
 }
 
 .houston-model-images img {
 	/* padding: 0 10px 0 10px; */
+    padding: 80px 0 0 0;
 }
 
 .houston-model-images .img-1 {
@@ -447,8 +842,8 @@ ol li {
 
 .houston-model-images {	
 	width:100%;
-	background: radial-gradient(ellipse at top, #050620, transparent),
-            radial-gradient(ellipse at bottom, #050620, transparent),
+	background: radial-gradient(ellipse at top, #183059, transparent),
+            radial-gradient(ellipse at bottom, #183059, transparent),
 	    radial-gradient(ellipse at left, #09193E, transparent),
 	    radial-gradient(ellipse at right, #09193E, transparent);
 }
@@ -458,11 +853,17 @@ ol li {
 	height: auto;
 	display: flex;
 	justify-content: space-evenly;
-	background: radial-gradient(ellipse at top, #050620, transparent),
-            radial-gradient(ellipse at bottom, #050620, transparent),
+	background: radial-gradient(ellipse at top, #183059, transparent),
+            radial-gradient(ellipse at bottom, #183059, transparent),
 	    radial-gradient(ellipse at left, #09193E, transparent),
-	    radial-gradient(ellipse at right, #09193E, transparent);;
+	    radial-gradient(ellipse at right, #09193E, transparent);
 	align-items: flex-start;
+}
+
+
+
+.chal-2-desc {
+    width: 100%;
 }
 
 .chal-1-hous img {
@@ -470,14 +871,235 @@ ol li {
 	
 }
 
+.review-chal {
+    width: 20%;
+    /* background-color: #09193E; */
+}
+
+.review-chal img {
+    object-fit: cover;
+    /* width: 20%; */
+}
+
 .houston-model-images-1 img {
 	padding: 80px 0 80px 0;
 	width: 170px;
+}
 
+.challenges {
+    background-color: #09193E;
 }
 
 
+
+.challenge-1, .challenge-2, .challenge-3 {
+    padding: 80px 140px 80px 220px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+}
+
+.chal-desc-1 {
+    width: 100%;
+}
+
+.chal-desc-1 h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #488B90;
+    font-size: 18px;
+    font-weight:600;
+    padding-top: 30px;
+    color: #ffc100;
+}
+
+.chal-desc-1 h3 {
+    font-family: 'Karla', sans-serif;
+    color: #0C0E08;
+    font-size: 34px;
+    padding-top: 30px;
+    font-weight: 700;
+    color: #f39422;
+}
+
+.chal-desc-1 p {
+    color: #4F5B62;
+    width: 75%;
+    font-size: 18px;
+    font-family: "Karla", Arial, sans-serif;
+    padding-top: 10px;
+    color: white;
+}
+
+.chal-3-desc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chal-3-desc img {
+    width: 40%;
+}
+
+.style-guide {
+    padding: 100px 200px 120px 300px;
+    background-color: #183059;
+}
+
+.style-guide h3 {
+    width: 100%;
+    margin: auto;
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #0C0E08;
+    color: #f39422;
+}
+
+.style-guide p {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 80px;
+    color: #4F5B62;
+    font-family: "Open Sans", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    color: white;
+    opacity: 0.9;
+}
+
 .style-guide img {
-	width: 80%;
-	height: auto;
+    padding-left: 0px;
+    width: 100%;
+}
+
+.final-design {
+    /* padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 80px; */
+    
+}
+
+.takeaways {
+    padding: 200px 400px 100px 400px;
+    width: 100%;
+    margin: auto;
+    background-color: #183059;
+}
+
+.takeaways h3 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #0C0E08;
+    color: #f39422;
+}
+
+.takeaways p {
+    padding-top: 30px;
+    color: #4F5B62;
+    font-family: "Karla", "Open Sans", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    margin: auto;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 20px;
+    color: white;
+    opacity: 0.9;
+}
+
+.process-deck {
+    text-align: center;
+    width: 100%;
+    margin-top: 130px;
+    /* transform: translateY(-100px); */
+    /* background-color: #050620; */
+}
+
+
+
+
+
+.footer {
+    padding: 80px 200px 50px 150px;
+    background-color: #263238;
+    color: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #050505;
+    color: #FDFFFC;
+}
+
+.footer h4 {
+    font-family: 'Whitney SSm A', Arial;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer b {
+    color: #FDFFFC;
+}
+
+.reach-icons {
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    transform: translate3d(-20px, 0, 0);
+}
+
+.reach-icons a{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FDFFFC;
+    font-size: 26px;
+}
+
+.footer p {
+    font-family: 'Whitney SSm A', Arial;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#mail {
+    cursor: pointer;
+    /* width: 50%; */
+    padding: 10px 0 10px 0;
+    letter-spacing: 0.5px;
+}
+
+#call {
+    padding: 20px 100px 20px 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+}
+
+#cr {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.scroll-icon {
+    position: fixed;
+    right: 40px;
+    bottom: 25px;
+    font-size: 30px;
+    /* color:#488B90 */
+}
+
+.scroll-icon a {
+    color: #488B90;
 }

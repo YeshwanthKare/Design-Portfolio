@@ -744,6 +744,17 @@ td {
     padding-top: 10px;
 }
 
+/* .chal-1-image {
+    width: 100%;
+    background-color: #0c0e08;
+} */
+
+/* .chal-1-image img {
+    object-fit: cover;
+    width: 20%;
+    height: 300px;
+} */
+
 .back {
     background-color: #F4F4F4;
 }
