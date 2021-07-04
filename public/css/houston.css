@@ -906,7 +906,9 @@ table {
 .houston-model-images-1 img {
 	padding: 80px 0 80px 0;
 	width: 170px;
-	box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
+	/* box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29); */
+    /* filter: drop-shadow(0px 2px 5px rgba(20,17,17,0.29)); */
+    filter: drop-shadow(2px 4px 6px rgba(20,17,17,.29));
 }
 
 .challenges {
