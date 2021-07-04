@@ -67,9 +67,10 @@ body {
 }
 
 .houston-hero-image::before {
-    content: "";
+    /* content: "";
     position: absolute;
     background-image: url(https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background:url(https://youtu.be/fHoxThe74uc);
     top: 0;
     bottom: 0;
     left: 0;
@@ -78,8 +79,13 @@ body {
     object-fit: contain;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 100%; */
     
+}
+
+.houston-hero-image video {    
+    background-position:top;
+    width: 100%;
 }
 
 .houston-hero-image h1 {
@@ -95,6 +101,14 @@ body {
 
 .houston-hero-image > * {
     z-index: 100000;
+}
+
+.houston-project-name {
+    position: absolute;
+}
+
+.houston-project-details {
+    position: absolute;
 }
 
 .houston-project-name h1 {
@@ -147,6 +161,8 @@ body {
 .process-deck button:hover {
     color: #fff;
     background-color: #050505;
+    color: #050505;
+    background-color: #cdbcdb;
 }
 
 
@@ -168,6 +184,8 @@ body {
     border: 1px solid #263238;
     color: #263238;
     background-color: #fff;
+    background-color: #050505;
+    color: white;
 
 }
 
@@ -176,6 +194,7 @@ table, th, td {
     border: 1px solid #bb9e60;
     padding: 10px;
     font-family: "Karla", sans-serif;
+    box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
 }
 
 th,td {
@@ -185,7 +204,7 @@ th,td {
 
 
 .houston-project-start {
-    padding: 80px 200px 237px 200px;
+    padding: 120px 200px 237px 200px;
     /* background-color: #2F4858; */
     background-color: #183059;
     /* background-color: #F7ECE1;
@@ -217,6 +236,7 @@ th,td {
     text-decoration: none;
     /* color: #f6ae2d; */
     color: #ffc100;
+    color: #e77408;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -700,6 +720,7 @@ table {
 .houston-user-flow img {
     padding-top: 40px;
     /* padding-left: -60px; */
+    filter: drop-shadow(0px 2px 5px rgba(20,17,17,0.29));
 }
 
 .houston-user-flow p {
@@ -720,7 +741,7 @@ table {
 .paper-wire-frame img {
     background-color: #032224;
     background-blend-mode:screen;
-
+    box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
 }
 
 
@@ -868,7 +889,7 @@ table {
 
 .chal-1-hous img {
 	width: 100%;
-	
+	box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
 }
 
 .review-chal {
@@ -878,12 +899,14 @@ table {
 
 .review-chal img {
     object-fit: cover;
+	box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
     /* width: 20%; */
 }
 
 .houston-model-images-1 img {
 	padding: 80px 0 80px 0;
 	width: 170px;
+	box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
 }
 
 .challenges {
@@ -937,6 +960,7 @@ table {
 
 .chal-3-desc img {
     width: 40%;
+	box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
 }
 
 .style-guide {
@@ -970,6 +994,7 @@ table {
 .style-guide img {
     padding-left: 0px;
     width: 100%;
+	box-shadow: 0px 2px 5px 0 rgba(20,17,17,0.29);
 }
 
 .final-design {
@@ -984,6 +1009,7 @@ table {
     width: 100%;
     margin: auto;
     background-color: #183059;
+    background-color: #cdbcdb;
 }
 
 .takeaways h3 {
@@ -992,7 +1018,7 @@ table {
     font-weight: 700;
     font-size: 34px;
     color: #0C0E08;
-    color: #f39422;
+    /* color: #f39422; */
 }
 
 .takeaways p {
@@ -1006,6 +1032,7 @@ table {
     padding-left: 20px;
     color: white;
     opacity: 0.9;
+    color: #050505;
 }
 
 .process-deck {
