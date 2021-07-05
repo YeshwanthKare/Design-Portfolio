@@ -7,6 +7,6 @@ const designProjects = [
     {
 	    projectLink: "/html/houston-movies.html",
 	    buttonText: "Houston Movies",
-	    imageSrc: "/assets/hm-logo.png"
+	    imageSrc: "/assets/hm-logo.PNG"
     }
 ]
