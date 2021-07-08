@@ -145,20 +145,19 @@ body {
     /* background-color:#fef; */
     border: 1px solid #fef;
     color: #fef;
-    background-color: #dbab44;
+    background-color: #050505;
 }
 
 .houston-project-details button:focus, .process-deck button:focus {
     outline: none;
 }
 
-.houston-project-details button:hover, .process-deck button:hover {
-    /* color: #fff; */
+/* .houston-project-details button:hover, .process-deck button:hover {
     color: #dbab44;
     background-color: #fef;
-}
+} */
 
-.process-deck button:hover {
+.process-deck button:hover, .houston-project-details button:hover {
     color: #fff;
     background-color: #050505;
     color: #050505;
