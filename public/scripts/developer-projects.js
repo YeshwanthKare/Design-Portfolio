@@ -17,7 +17,7 @@ let developerProjects = [
 	imageSrc: "/assets/imagegram.png"
     },
     {
-	projectLink: "https://netflix-clone-c0ee4.web.app",
+	projectLink: "https://yesh-netflix.netlify.app",
 	buttonText: "Netflix Clone",
 	imageSrc: "/assets/netflix.JPG"
     },
