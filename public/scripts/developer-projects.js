@@ -20,22 +20,6 @@ let developerProjects = [
     imageSrc: "/assets/react-expenses.JPG",
   },
   {
-    projectLink: "https://yesh-sunnyside-landing-page.netlify.app/",
-    buttonText: "Sunny Side Landing Page",
-    imageSrc: "/assets/sunny-side.JPG",
-  },
-  {
-    projectLink: "https://inkoop-landing-page.netlify.app/",
-    buttonText: "Inkoop Landing Page",
-    imageSrc: "/assets/Inkoop.JPG",
-  },
-
-  {
-    projectLink: "https://yeshwanthkare.github.io/TributePage/",
-    buttonText: "Tribute Page",
-    imageSrc: "/assets/tribute.JPG",
-  },
-  {
     projectLink: "https://yesh-react-amazon-cart.netlify.app",
     buttonText: "React Amazon Cart",
     imageSrc: "/assets/amazon-cart.png",
@@ -61,6 +45,23 @@ let developerProjects = [
     buttonText: "Beat Box JS",
     imageSrc: "/assets/beat-box.JPG",
   },
+  {
+    projectLink: "https://yesh-sunnyside-landing-page.netlify.app/",
+    buttonText: "Sunny Side Landing Page",
+    imageSrc: "/assets/sunny-side.JPG",
+  },
+  {
+    projectLink: "https://inkoop-landing-page.netlify.app/",
+    buttonText: "Inkoop Landing Page",
+    imageSrc: "/assets/Inkoop.JPG",
+  },
+
+  {
+    projectLink: "https://yeshwanthkare.github.io/TributePage/",
+    buttonText: "Tribute Page",
+    imageSrc: "/assets/tribute.JPG",
+  },
+
   {
     projectLink: "https://yeshwanthkare.github.io/Weather-App/",
     buttonText: "Weather App",
